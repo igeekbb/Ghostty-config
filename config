@@ -1,0 +1,75 @@
+font-family = "JetBrainsMono-Regular"
+font-style-bold = "Medium"
+font-style-bold-italic = "Medium Italic"
+# 稍微减小字体大小，可以根据你的屏幕和喜好调整
+font-size = 16
+# 字体加粗，尝试更自然的渲染效果
+font-thicken = true
+
+grapheme-width-method = "unicode"
+# 不调整单元格宽度，避免显示问题
+adjust-cell-width = 0%
+
+# 优化后的配色方案，提高对比度和可读性
+# 稍微加深背景色，增加对比度
+palette = 0=#1e222a
+# 调整红色
+palette = 1=#e06c75
+# 调整绿色
+palette = 2=#98c379
+# 调整黄色
+palette = 3=#e5c07b
+# 调整蓝色
+palette = 4=#61afef
+# 调整紫色
+palette = 5=#c678dd
+# 调整青色
+palette = 6=#56b6c2
+# 调整亮白色，与背景色有更好对比
+palette = 7=#dcdfe4
+# 调整暗灰色
+palette = 8=#545862
+# 调整红色
+palette = 9=#e06c75
+# 调整绿色
+palette = 10=#98c379
+# 调整黄色
+palette = 11=#e5c07b
+# 调整蓝色
+palette = 12=#61afef
+# 调整紫色
+palette = 13=#c678dd
+# 调整青色
+palette = 14=#56b6c2
+# 纯白色，用于某些强调文本
+palette = 15=#ffffff
+# 与 palette 0 相同
+background = 1e222a
+# 与 palette 7 相同，提高对比度
+foreground = dcdfe4
+# 使用黄色作为光标颜色，更容易识别
+cursor-color = e5c07b
+# 调整选择背景色，提高对比度
+selection-background = 405060
+# 调整选择前景色
+selection-foreground = dcdfe4
+# 保持选择区域反色
+selection-invert-fg-bg = true
+
+cursor-style = "bar"
+cursor-style-blink = true
+# 减少滚动历史，节省内存
+scrollback-limit = 20000
+# 减少水平边距，节省屏幕空间
+window-padding-x = 15
+# 统一垂直边距
+window-padding-y = 15
+window-save-state = "always"
+
+background-opacity = 0.8
+# 背景不透明度
+background-blur-radius = 25
+# 背景模糊半径
+
+# 更安全的快捷键，避免冲突
+keybind = global:alt+grave_accent=toggle_quick_terminal
